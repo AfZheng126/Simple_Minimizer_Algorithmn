@@ -1,0 +1,11 @@
+[package]
+name = "simple_algorithm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+seq_io = "0.3.1"
+array_tool = "1.0.3"
+libc = "0.2.77"
