@@ -9,7 +9,7 @@ Detailed Steps
    - The kmers selected are the kmers with the minimal hash value in each l-sized window 
 2. The program then takes in the query fasta file and converts each query sequence into a vector of minimizer kmers
 3. The vector is compared to vectors representing our reference genomes, and the amount of hits are calculated
-   - Remark: Hits at the current stage only counts matches of kmers, disregarding repeats or order of the kmers 
+   - Remark: Hits at the current stage only counts matches of kmers, disregarding multiplicity and order of the kmers 
 4. The program then returns a string telling us for each query, which reference it is likely from, or if it is from none of them 
 
 Example Fasta files provided
